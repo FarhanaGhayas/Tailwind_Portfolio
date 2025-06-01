@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>My Portfolio</title>
-  <link href="./dist/output.css" rel="stylesheet">
+  <link href="../dist/output.css" rel="stylesheet">
 </head>
 <body class="bg-gray-100 text-gray-900 font-sans">
   
@@ -40,6 +40,21 @@
     <h2 class="text-3xl font-semibold mb-4">Get In Touch</h2>
     <p class="mb-4">Feel free to reach out via email or socials!</p>
     <a href="mailto:farhana.capricon@gmail.com" class="text-blue-600 hover:underline">farhana.capricon@gmail.com</a>
+    <form
+  action="https://formspree.io/f/xovdorez"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
   </section>
 
 </body>
